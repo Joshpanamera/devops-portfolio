@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
   return (
@@ -22,48 +23,65 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex gap-4">
-          <button className="rounded-lg bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-700">
+          <a
+            href="#projects"
+            className="rounded-lg bg-blue-600 px-6 py-3 font-semibold hover:bg-blue-700"
+          >
             View Projects
-          </button>
+          </a>
 
-          <button className="rounded-lg border border-white px-6 py-3 font-semibold hover:bg-white hover:text-black">
+          <a
+            href="/resume/Joshua_Kpejoh_Tam_DevOps_Resume.pdf"
+            download
+            className="rounded-lg border border-white px-6 py-3 font-semibold hover:bg-white hover:text-black"
+          >
             Download Resume
-          </button>
+          </a>
         </div>
       </section>
 
-      {/* About Section */}
+
+      {/* About */}
       <section
         id="about"
-        className="bg-gray-900 py-24 px-6 text-white"
+        className="bg-gray-900 py-24 px-6"
       >
         <div className="mx-auto max-w-5xl">
+
           <h2 className="mb-10 text-center text-4xl font-bold">
             About Me
           </h2>
 
           <p className="mx-auto max-w-3xl text-center text-lg leading-8 text-gray-300">
-            I am a DevOps & Cloud Engineer passionate about building scalable,
-            secure, and automated cloud infrastructure. My experience includes
-            AWS, Linux, Docker, Kubernetes, Jenkins, GitHub Actions,
-            Terraform, and Ansible. I enjoy designing CI/CD pipelines,
-            automating deployments, and solving real-world infrastructure
-            challenges through Infrastructure as Code.
+            I am a DevOps and Cloud Engineer passionate about building
+            scalable, secure and automated cloud infrastructure.
+
+            I specialize in AWS, Docker, Kubernetes, Terraform, Jenkins,
+            GitHub Actions, Linux and Infrastructure as Code.
+
+            My focus is creating reliable systems through automation,
+            CI/CD pipelines and modern cloud technologies.
           </p>
+
         </div>
       </section>
 
-      {/* Skills Section */}
+
+      {/* Skills */}
       <section
         id="skills"
         className="bg-gray-950 py-24 px-6"
       >
+
         <div className="mx-auto max-w-6xl">
+
           <h2 className="mb-12 text-center text-4xl font-bold">
             Technical Skills
           </h2>
 
+
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
             {[
               "AWS",
               "Docker",
@@ -77,198 +95,176 @@ export default function Home() {
               "Bash",
               "Nginx",
             ].map((skill) => (
+
               <div
                 key={skill}
                 className="rounded-xl border border-gray-800 bg-gray-900 p-6 text-center transition hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20"
               >
+
                 <h3 className="text-xl font-semibold text-blue-400">
                   {skill}
                 </h3>
+
               </div>
+
             ))}
+
           </div>
+
         </div>
+
       </section>
-      {/* Projects Section */}
+
+
+
+      {/* Projects */}
       <section
         id="projects"
-        className="bg-gray-900 py-24 px-6 text-white"
+        className="bg-gray-900 py-24 px-6"
       >
+
         <div className="mx-auto max-w-7xl">
 
           <h2 className="mb-12 text-center text-4xl font-bold">
             Featured Projects
           </h2>
 
+
           <div className="grid gap-8 md:grid-cols-2">
 
-            {/* Project 1 */}
-            <div className="rounded-xl border border-gray-800 bg-gray-950 p-8 transition hover:border-blue-500">
 
-              <h3 className="text-2xl font-bold text-blue-400">
-                Jenkins CI/CD Pipeline
-              </h3>
+            <ProjectCard
+              title="Linux Server Performance Monitor"
+              description="Built a Linux monitoring solution using Bash scripting to monitor CPU, memory, disk usage and overall server health."
+              technologies={[
+                "Linux",
+                "Bash"
+              ]}
+              github="https://github.com/Joshpanamera/linux-server-performance-monitor"
+            />
 
-              <p className="mt-4 text-gray-300">
-                Automated Docker image builds using Jenkins pipelines,
-                GitHub Webhooks, Docker, and Nginx.
-              </p>
 
-              <div className="mt-6 flex flex-wrap gap-2">
+            <ProjectCard
+              title="GitHub Pages Deployment Workflow"
+              description="Automated website deployment using GitHub Actions and GitHub Pages."
+              technologies={[
+                "GitHub Actions",
+                "GitHub Pages"
+              ]}
+              github="https://github.com/Joshpanamera/gh-deployment-workflow"
+            />
 
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Jenkins
-                </span>
 
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Docker
-                </span>
+            <ProjectCard
+              title="Jenkins CI/CD Pipeline"
+              description="Built a Jenkins pipeline that automatically builds Docker images using GitHub Webhooks and Jenkins."
+              technologies={[
+                "Jenkins",
+                "Docker",
+                "GitHub",
+                "Webhooks"
+              ]}
+              github="https://github.com/Joshpanamera/jenkins-ci-cd-demo"
+            />
 
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  GitHub
-                </span>
 
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Webhooks
-                </span>
+            <ProjectCard
+              title="AWS Kubernetes TaskApp Deployment"
+              description="Provisioned AWS infrastructure with Terraform and deployed a highly available application to Kubernetes."
+              technologies={[
+                "AWS",
+                "Terraform",
+                "Kubernetes"
+              ]}
+              github="https://github.com/Joshpanamera/My-tasksapp-capstone"
+            />
 
-              </div>
-
-              <button className="mt-8 rounded-lg bg-blue-600 px-5 py-2 hover:bg-blue-700">
-                View Project
-              </button>
-
-            </div>
-
-            {/* Project 2 */}
-
-            <div className="rounded-xl border border-gray-800 bg-gray-950 p-8 transition hover:border-blue-500">
-
-              <h3 className="text-2xl font-bold text-blue-400">
-                Kubernetes Capstone
-              </h3>
-
-              <p className="mt-4 text-gray-300">
-                Deployed a highly available containerized application
-                on Kubernetes using Terraform and AWS.
-              </p>
-
-              <div className="mt-6 flex flex-wrap gap-2">
-
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Kubernetes
-                </span>
-
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Terraform
-                </span>
-
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  AWS
-                </span>
-
-              </div>
-
-              <button className="mt-8 rounded-lg bg-blue-600 px-5 py-2 hover:bg-blue-700">
-                View Project
-              </button>
-
-            </div>
 
           </div>
 
         </div>
-      </section>
-      {/* Projects Section */}
-      <section
-        id="projects"
-        className="bg-gray-900 py-24 px-6 text-white"
-      >
-        <div className="mx-auto max-w-7xl">
 
-          <h2 className="mb-12 text-center text-4xl font-bold">
-            Featured Projects
+      </section>
+
+
+
+      {/* Contact */}
+      <section
+        id="contact"
+        className="bg-gray-950 py-24 px-6"
+      >
+
+        <div className="mx-auto max-w-5xl text-center">
+
+
+          <h2 className="mb-10 text-4xl font-bold">
+            Contact
           </h2>
 
-          <div className="grid gap-8 md:grid-cols-2">
 
-            {/* Project 1 */}
-            <div className="rounded-xl border border-gray-800 bg-gray-950 p-8 transition hover:border-blue-500">
+          <p className="mb-8 text-lg text-gray-300">
+            Interested in DevOps, Cloud Infrastructure,
+            automation or collaboration? Feel free to reach out.
+          </p>
 
-              <h3 className="text-2xl font-bold text-blue-400">
-                Jenkins CI/CD Pipeline
-              </h3>
 
-              <p className="mt-4 text-gray-300">
-                Automated Docker image builds using Jenkins pipelines,
-                GitHub Webhooks, Docker, and Nginx.
-              </p>
+          <div className="flex flex-col items-center gap-4 text-lg">
 
-              <div className="mt-6 flex flex-wrap gap-2">
 
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Jenkins
-                </span>
+            <a
+              href="mailto:joshua.kpejoh@yahoo.com"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              📧 joshua.kpejoh@yahoo.com
+            </a>
 
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Docker
-                </span>
 
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  GitHub
-                </span>
+            <a
+              href="https://github.com/Joshpanamera"
+              target="_blank"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              🐙 github.com/Joshpanamera
+            </a>
 
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Webhooks
-                </span>
 
-              </div>
+            <a
+              href="https://x.com/tamjosh_longest"
+              target="_blank"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              𝕏 @tamjosh_longest
+            </a>
 
-              <button className="mt-8 rounded-lg bg-blue-600 px-5 py-2 hover:bg-blue-700">
-                View Project
-              </button>
-
-            </div>
-
-            {/* Project 2 */}
-
-            <div className="rounded-xl border border-gray-800 bg-gray-950 p-8 transition hover:border-blue-500">
-
-              <h3 className="text-2xl font-bold text-blue-400">
-                Kubernetes Capstone
-              </h3>
-
-              <p className="mt-4 text-gray-300">
-                Deployed a highly available containerized application
-                on Kubernetes using Terraform and AWS.
-              </p>
-
-              <div className="mt-6 flex flex-wrap gap-2">
-
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Kubernetes
-                </span>
-
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  Terraform
-                </span>
-
-                <span className="rounded bg-blue-600 px-3 py-1 text-sm">
-                  AWS
-                </span>
-
-              </div>
-
-              <button className="mt-8 rounded-lg bg-blue-600 px-5 py-2 hover:bg-blue-700">
-                View Project
-              </button>
-
-            </div>
 
           </div>
 
+
         </div>
+
+
       </section>
+
+
+
+      {/* Footer */}
+      <footer className="border-t border-gray-800 bg-gray-950 py-8">
+
+        <div className="text-center text-gray-400">
+
+          <p>
+            © {new Date().getFullYear()} Joshua Kpejoh Tam
+          </p>
+
+          <p className="mt-2">
+            Built with Next.js • Tailwind CSS • Vercel
+          </p>
+
+        </div>
+
+      </footer>
+
+
     </main>
   );
 }
