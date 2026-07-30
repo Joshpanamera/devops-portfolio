@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevOps Portfolio
 
-## Getting Started
+A modern DevOps portfolio built with Next.js and deployed on Vercel using a custom domain.
 
-First, run the development server:
+## 🌐 Live Demo
+
+**Website:** https://tamjosh.xyz
+
+## 📖 Overview
+
+This project showcases my DevOps skills, projects, and technical experience. It is designed to serve as my professional portfolio for recruiters and employers.
+
+The website is fully responsive, deployed to production with Vercel, and connected to a custom domain.
+
+---
+
+## ✨ Features
+
+- Responsive design
+- Modern UI built with Next.js
+- Custom domain integration
+- Automatic deployments with GitHub and Vercel
+- Professional project showcase
+- Resume download
+- Contact section with social links
+
+---
+
+## 🛠️ Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Git
+- GitHub
+- Vercel
+- DNS Configuration
+
+---
+
+## 🚀 Featured Projects
+
+### Linux Monitoring Server
+A Linux server monitoring solution using Bash scripting and system utilities.
+
+### Jenkins CI/CD Automation
+A Jenkins pipeline that automates application builds and Docker image creation.
+
+### Kubernetes Capstone
+Provisioned cloud infrastructure and deployed a containerized application using Kubernetes and Terraform.
+
+---
+
+## 📸 Screenshots
+
+### Homepage
+
+![Homepage](public/images/homepage.png)
+
+### Projects
+
+![Projects](public/images/projects.png)
+
+### Skills
+
+![Skills](public/images/skills.png)
+
+### Contact
+
+![Contact](public/images/contact.png)
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/devops-portfolio.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌍 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The application is automatically deployed using Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Every push to the **main** branch triggers a new production deployment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📫 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Website: https://tamjosh.xyz
+- GitHub: https://github.com/YOUR_USERNAME
+- LinkedIn: (Coming Soon)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project is available under the MIT License.
