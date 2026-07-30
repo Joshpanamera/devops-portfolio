@@ -136,7 +136,7 @@ Provisioned cloud infrastructure and deployed a containerized application using 
 
 ![Contact](public/images/contact.png)
 
-### Mobile View
+## 📱 Mobile Experience
 
 ![Mobile View](public/images/mobile-display.jpeg)
 ---
