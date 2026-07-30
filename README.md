@@ -1,8 +1,9 @@
+
+# DevOps Portfolio
+
 <p align="center">
   <img src="public/images/banner.png" alt="Joshua Kpejoh Tam DevOps Banner" width="100%">
 </p>
-
-# DevOps Portfolio
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
