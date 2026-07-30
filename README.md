@@ -122,20 +122,19 @@ Provisioned cloud infrastructure and deployed a containerized application using 
 
 ### Homepage
 
-![Homepage](public/images/screenshots/homepage.png)
+![Homepage](public/images/homepage.png)
 
 ### Projects
 
-![Projects](public/images/screenshots/projects.png)
+![Projects](public/images/projects.png)
 
 ### Skills
 
-![Skills](public/images/screenshots/skills.png)
+![Skills](public/images/skills.png)
 
 ### Contact
 
-![Contact](public/images/screenshots/contact.png)
-
+![Contact](public/images/contact.png)
 ---
 
 ## 📁 Project Structure
