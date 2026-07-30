@@ -135,6 +135,10 @@ Provisioned cloud infrastructure and deployed a containerized application using 
 ### Contact
 
 ![Contact](public/images/contact.png)
+
+### Mobile View
+
+![Mobile View](public/images/mobile-display.jpeg)
 ---
 
 ## 📁 Project Structure
