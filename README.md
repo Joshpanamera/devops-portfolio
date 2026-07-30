@@ -77,7 +77,7 @@ Provisioned cloud infrastructure and deployed a containerized application using 
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/devops-portfolio.git
+git clone https://github.com/Joshpanamera/devops-portfolio.git
 ```
 
 Install dependencies
@@ -111,7 +111,7 @@ Every push to the **main** branch triggers a new production deployment.
 ## 📫 Contact
 
 - Website: https://tamjosh.xyz
-- GitHub: https://github.com/YOUR_USERNAME
+- GitHub: https://github.com/Joshpanamera
 - LinkedIn: (Coming Soon)
 
 ---
