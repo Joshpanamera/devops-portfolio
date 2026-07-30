@@ -1,16 +1,39 @@
 # DevOps Portfolio
 
-A modern DevOps portfolio built with Next.js and deployed on Vercel using a custom domain.
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-06B6D4)
+![Vercel](https://img.shields.io/badge/Deployment-Vercel-000000)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+A modern DevOps portfolio built with **Next.js**, showcasing my cloud engineering, DevOps, and automation projects. The portfolio is deployed on **Vercel** and served through a custom domain with DNS configuration.
+
+---
 
 ## 🌐 Live Demo
 
 **Website:** https://tamjosh.xyz
 
+---
+
 ## 📖 Overview
 
-This project showcases my DevOps skills, projects, and technical experience. It is designed to serve as my professional portfolio for recruiters and employers.
+This portfolio highlights my hands-on DevOps projects and technical experience in:
 
-The website is fully responsive, deployed to production with Vercel, and connected to a custom domain.
+- Linux System Administration
+- Bash Scripting
+- Git & GitHub
+- Docker
+- Kubernetes
+- Terraform
+- Jenkins
+- CI/CD Pipelines
+- Cloud Infrastructure
+- DNS Configuration
+- Next.js Deployment with Vercel
+
+The website is fully responsive and designed to showcase my work to recruiters, hiring managers, and potential collaborators.
 
 ---
 
@@ -18,22 +41,34 @@ The website is fully responsive, deployed to production with Vercel, and connect
 
 - Responsive design
 - Modern UI built with Next.js
-- Custom domain integration
-- Automatic deployments with GitHub and Vercel
 - Professional project showcase
 - Resume download
-- Contact section with social links
+- Contact section
+- Custom domain configuration
+- Automatic deployments with GitHub and Vercel
+- Optimized for desktop and mobile devices
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
+
+### Frontend
 
 - Next.js
 - React
 - TypeScript
 - Tailwind CSS
+
+### DevOps
+
+- Linux
+- Bash
 - Git
 - GitHub
+- Docker
+- Kubernetes
+- Terraform
+- Jenkins
 - Vercel
 - DNS Configuration
 
@@ -41,14 +76,45 @@ The website is fully responsive, deployed to production with Vercel, and connect
 
 ## 🚀 Featured Projects
 
-### Linux Monitoring Server
-A Linux server monitoring solution using Bash scripting and system utilities.
+### 🐧 Linux Monitoring Server
 
-### Jenkins CI/CD Automation
-A Jenkins pipeline that automates application builds and Docker image creation.
+A Linux monitoring solution built with Bash scripting and Linux system utilities.
 
-### Kubernetes Capstone
-Provisioned cloud infrastructure and deployed a containerized application using Kubernetes and Terraform.
+**Highlights**
+
+- Automated server health monitoring
+- CPU usage reporting
+- Memory usage reporting
+- Disk space monitoring
+- Process monitoring
+- Bash automation
+
+---
+
+### ⚙️ Jenkins CI/CD Automation
+
+Built a Jenkins pipeline to automate application builds and Docker image creation.
+
+**Highlights**
+
+- Jenkins pipeline automation
+- Docker image builds
+- Source code integration with GitHub
+- Continuous Integration workflow
+
+---
+
+### ☸️ Kubernetes Capstone Project
+
+Provisioned cloud infrastructure and deployed a containerized application using Terraform and Kubernetes.
+
+**Highlights**
+
+- Infrastructure as Code using Terraform
+- Kubernetes deployment
+- Cloud networking
+- Container orchestration
+- Production-ready infrastructure
 
 ---
 
@@ -56,45 +122,68 @@ Provisioned cloud infrastructure and deployed a containerized application using 
 
 ### Homepage
 
-![Homepage](public/images/homepage.png)
+![Homepage](public/images/screenshots/homepage.png)
 
 ### Projects
 
-![Projects](public/images/projects.png)
+![Projects](public/images/screenshots/projects.png)
 
 ### Skills
 
-![Skills](public/images/skills.png)
+![Skills](public/images/screenshots/skills.png)
 
 ### Contact
 
-![Contact](public/images/contact.png)
+![Contact](public/images/screenshots/contact.png)
+
+---
+
+## 📁 Project Structure
+
+```text
+devops-portfolio/
+│
+├── app/
+├── components/
+├── public/
+│   └── images/
+├── README.md
+├── package.json
+├── next.config.ts
+└── tsconfig.json
+```
 
 ---
 
 ## ⚙️ Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Joshpanamera/devops-portfolio.git
 ```
 
-Install dependencies
+Navigate into the project:
+
+```bash
+cd devops-portfolio
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Run locally
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Open:
+Open your browser and visit:
 
-```
+```text
 http://localhost:3000
 ```
 
@@ -102,20 +191,43 @@ http://localhost:3000
 
 ## 🌍 Deployment
 
-The application is automatically deployed using Vercel.
+The application is deployed on **Vercel**.
 
-Every push to the **main** branch triggers a new production deployment.
+Every push to the **main** branch automatically triggers a new production deployment.
+
+Production URL:
+
+https://tamjosh.xyz
+
+---
+
+## 🔮 Future Improvements
+
+- Add GitHub Actions CI workflow
+- Integrate automated Jenkins deployments
+- Add Terraform architecture diagrams
+- Add Kubernetes deployment manifests
+- Improve project filtering
+- Expand project portfolio
 
 ---
 
 ## 📫 Contact
 
-- Website: https://tamjosh.xyz
-- GitHub: https://github.com/Joshpanamera
-- LinkedIn: (Coming Soon)
+**Website**
+
+https://tamjosh.xyz
+
+**GitHub**
+
+https://github.com/Joshpanamera
+
+**LinkedIn**
+
+Coming Soon
 
 ---
 
 ## 📄 License
 
-This project is available under the MIT License.
+This project is licensed under the MIT License.
