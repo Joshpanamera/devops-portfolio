@@ -11,9 +11,13 @@ export default function Hero() {
             </h2>
 
             <p className="mt-6 max-w-2xl text-lg text-gray-300">
-                I build cloud infrastructure, automate deployments, and design
-                reliable CI/CD pipelines using AWS, Docker, Jenkins, GitHub Actions,
-                Kubernetes, Terraform and Ansible.
+                DevOps and Cloud Engineer with hands-on experience designing,
+                deploying, and automating cloud infrastructure using AWS,
+                Terraform, Docker, Kubernetes, Jenkins, GitHub Actions,
+                and Linux. Skilled in Infrastructure as Code (IaC), CI/CD automation,
+                container orchestration, and cloud-native deployments.
+                Passionate about building scalable, secure, and reliable systems while continuously improving
+                operational efficiency through automation and modern DevOps practices.
             </p>
 
             <div className="mt-10 flex gap-4">

@@ -12,43 +12,7 @@ export default function Projects() {
                     Featured Projects
                 </h2>
 
-
                 <div className="grid gap-8 md:grid-cols-2">
-
-
-                    <ProjectCard
-                        title="Linux Server Performance Monitor"
-                        description="Built a Linux monitoring solution using Bash scripting to monitor CPU, memory, disk usage and overall server health."
-                        technologies={[
-                            "Linux",
-                            "Bash"
-                        ]}
-                        github="https://github.com/Joshpanamera/linux-server-performance-monitor"
-                    />
-
-
-                    <ProjectCard
-                        title="GitHub Pages Deployment Workflow"
-                        description="Automated website deployment using GitHub Actions and GitHub Pages."
-                        technologies={[
-                            "GitHub Actions",
-                            "GitHub Pages"
-                        ]}
-                        github="https://github.com/Joshpanamera/gh-deployment-workflow"
-                    />
-
-
-                    <ProjectCard
-                        title="Jenkins CI/CD Pipeline"
-                        description="Built a Jenkins pipeline that automatically builds Docker images using GitHub Webhooks and Jenkins."
-                        technologies={[
-                            "Jenkins",
-                            "Docker",
-                            "GitHub",
-                            "Webhooks"
-                        ]}
-                        github="https://github.com/Joshpanamera/jenkins-ci-cd-demo"
-                    />
 
 
                     <ProjectCard
@@ -57,11 +21,56 @@ export default function Projects() {
                         technologies={[
                             "AWS",
                             "Terraform",
-                            "Kubernetes"
+                            "Kubernetes",
+                            "Docker",
+                            "ArgoCD",
+                            "NGINX Ingress",
+                            "PostgreSQL",
+
                         ]}
                         github="https://github.com/Joshpanamera/My-tasksapp-capstone"
+                        image="/images/taskapp-dashboard.png"
                     />
 
+                    <ProjectCard
+                        title="Linux Server Performance Monitor"
+                        description="Built a Linux monitoring solution using Bash scripting to monitor CPU, memory, disk usage and overall server health."
+                        technologies={[
+                            "Linux",
+                            "Bash",
+                            "Shell Scripting",
+                        ]}
+                        github="https://github.com/Joshpanamera/linux-server-performance-monitor"
+                        image="/images/linux-monitor.png"
+                    />
+
+                    <ProjectCard
+                        title="GitHub Pages Deployment Workflow"
+                        description="Automated website deployment using GitHub Actions and GitHub Pages."
+                        technologies={[
+                            "GitHub Actions",
+                            "GitHub Pages",
+                            "YAML",
+                            "CI/CD",
+
+                        ]}
+                        github="https://github.com/Joshpanamera/gh-deployment-workflow"
+                        image="/images/github-actions-deployment.png"
+                    />
+
+                    <ProjectCard
+                        title="Jenkins CI/CD Pipeline"
+                        description="Built a Jenkins pipeline that automatically builds Docker images using GitHub Webhooks and Jenkins."
+                        technologies={[
+                            "Jenkins",
+                            "Docker",
+                            "GitHub",
+                            "GitHub Webhooks",
+                            "CI/CD",
+                        ]}
+                        github="https://github.com/Joshpanamera/jenkins-ci-cd-demo"
+                        image="/images/jenkins-pipeline.png"
+                    />
 
                 </div>
 
