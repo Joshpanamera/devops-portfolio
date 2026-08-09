@@ -45,6 +45,7 @@ export default function Contact() {
                         className="text-blue-400 hover:text-blue-300"
                     >
                         𝕏 @tamjosh_longest
+                        www.tamjosh.xyz
                     </a>
 
 

@@ -14,7 +14,6 @@ export default function Projects() {
 
                 <div className="grid gap-8 md:grid-cols-2">
 
-
                     <ProjectCard
                         title="AWS Kubernetes TaskApp Deployment"
                         description="Provisioned AWS infrastructure with Terraform and deployed a highly available application to Kubernetes."
@@ -26,7 +25,6 @@ export default function Projects() {
                             "ArgoCD",
                             "NGINX Ingress",
                             "PostgreSQL",
-
                         ]}
                         github="https://github.com/Joshpanamera/My-tasksapp-capstone"
                         image="/images/taskapp-dashboard.png"
@@ -52,7 +50,6 @@ export default function Projects() {
                             "GitHub Pages",
                             "YAML",
                             "CI/CD",
-
                         ]}
                         github="https://github.com/Joshpanamera/gh-deployment-workflow"
                         image="/images/github-actions-deployment.png"
@@ -70,6 +67,19 @@ export default function Projects() {
                         ]}
                         github="https://github.com/Joshpanamera/jenkins-ci-cd-demo"
                         image="/images/jenkins-pipeline.png"
+                    />
+
+                    <ProjectCard
+                        title="Azure Cloud Identity & App Registration"
+                        description="Registered and configured a Microsoft Entra ID application to explore cloud identity, authentication, and Azure application management. Learned how Client IDs, Tenant IDs, and application registrations are used to securely authenticate cloud applications."
+                        technologies={[
+                            "Microsoft Azure",
+                            "Microsoft Entra ID",
+                            "Azure Active Directory",
+                            "OAuth 2.0",
+                        ]}
+                        github="https://github.com/Joshpanamera/azure-entra-app-registration"
+                        image="/images/azure-entra-dashboard.png"
                     />
 
                 </div>
