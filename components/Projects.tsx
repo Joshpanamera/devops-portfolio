@@ -29,6 +29,18 @@ export default function Projects() {
                         github="https://github.com/Joshpanamera/My-tasksapp-capstone"
                         image="/images/taskapp-dashboard.png"
                     />
+                    <ProjectCard
+                        title="Azure Cloud Identity & App Registration"
+                        description="Registered and configured a Microsoft Entra ID application to explore cloud identity, authentication, and Azure application management. Learned how Client IDs, Tenant IDs, and application registrations are used to securely authenticate cloud applications."
+                        technologies={[
+                            "Microsoft Azure",
+                            "Microsoft Entra ID",
+                            "Azure Active Directory",
+                            "OAuth 2.0",
+                        ]}
+                        github="https://github.com/Joshpanamera/azure-entra-app-registration1.git"
+                        image="/images/azure-entra-dashboard.png"
+                    />
 
                     <ProjectCard
                         title="Linux Server Performance Monitor"
@@ -67,19 +79,6 @@ export default function Projects() {
                         ]}
                         github="https://github.com/Joshpanamera/jenkins-ci-cd-demo"
                         image="/images/jenkins-pipeline.png"
-                    />
-
-                    <ProjectCard
-                        title="Azure Cloud Identity & App Registration"
-                        description="Registered and configured a Microsoft Entra ID application to explore cloud identity, authentication, and Azure application management. Learned how Client IDs, Tenant IDs, and application registrations are used to securely authenticate cloud applications."
-                        technologies={[
-                            "Microsoft Azure",
-                            "Microsoft Entra ID",
-                            "Azure Active Directory",
-                            "OAuth 2.0",
-                        ]}
-                        github="https://github.com/Joshpanamera/azure-entra-app-registration"
-                        image="/images/azure-entra-dashboard.png"
                     />
 
                 </div>
